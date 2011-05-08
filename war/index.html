@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel=stylesheet href="style.css" type="text/css" />
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="raphael-min.js" type="text/javascript"></script>
+    <script src="jquery.corners.js" type="text/javascript"></script>
+    <script src="googlesearch.js" type="text/javascript"></script>
+
+    <title>Google Search Test</title>
+  </head>
+  <body>
+  	<div id="wrapper">
+        <br><br>
+        <div id="title">
+            <center><b>
+            <font color="#4CC417">G</font><font color="#657383">oogle</font><font color="#38ACEC">R</font><font color="#657383">ec</font>
+            </b>
+            </center>
+        </div>
+        <div class="instructions">
+            GoogleRec delivers a different experience to Google's Autocomplete feature by visualizing the suggestions one word at a time rather than the <i><b>complete</b></i> suggestion.
+            <br>
+            This limitation on what Google suggests may unexpectedly change the user's initial search.
+            <br>
+        </div>
+        <br>
+        <p style="font-size: 500px; margin-top: 0; margin-bottom: 0; padding:0; color: gray; font-family: Helvetica, Verdana, Tahoma;"><b>&darr;</b></p><br><br><br><br>
+        <br>
+        <div class="input_border">
+        <p style="font-size: 30px"> Search by entering a <br>letter, word, or phrase.</p>
+		<input type="text" id="word" value="" style=" background-color: LightSlateGray; border-top: 0; border-right: 0; border-left: 0;color: white; text-align: center; font-size: 30px;"/>
+		</div>
+        <br><br><br>
+		<div id="searchResults"></div>
+        <div id="imageResults"></div>
+		<div id="previousResults"></div>
+		
+	</div>
+  </body>
+</html>

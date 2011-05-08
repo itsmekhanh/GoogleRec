@@ -1,0 +1,94 @@
+html, body{
+	background-color:	#F8F8FF;
+	color:				black;
+	text-align:			center;
+    width:              100%;
+    height:             100%;
+}
+
+
+
+.input_border{
+    background-color:   LightSlateGray;
+    width:              400px;
+    margin-left:        auto;
+    margin-right:       auto;
+    padding:            15px;
+    color:              white;
+    font-family:        Helvetica, Verdana, Tahoma;
+}
+
+.instructions{
+    width: 450px;
+    height: 100px;
+    background-color: #81BEF7;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-family:        Helvetica, Verdana, Tahoma;
+    color: white;
+}
+
+#wrapper{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#canvas{
+    background-color: brown;
+}
+
+#title{
+    width:  600px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Garamond, Georgia, Serif;
+    font-size:  80px;
+   
+}
+
+#searchResults{
+    text-align: center;
+}
+
+#imageResults{
+    width: 800px;
+    height: 400px;
+    margin:  0 auto;
+    color: black;
+}
+
+#previousResults{
+	width: 800px;
+    margin:  0 auto;
+	text-align: center;
+	color: black;
+}
+span{
+    padding-right:  20px;
+    padding-left:   20px;
+    margin-right:	20px;
+    margin-left:	20px;
+    
+    font-size: 20px;
+    background-color: gray;
+    border-color: white;
+    border-style: solid;
+    border-width:  1px;
+}
+
+span:hover{
+    background-color: #99C68E	;
+}
+
+/* custom fonts */
+@font-face{
+    font-family: "AlphaFridgeMagnets";
+    src: url(AlphaFridgeMagnets.ttf)format("truetype");
+}
+
+a:link      {color: white; text-decoration: none; }     /* unvisited link */
+a:visited   {color: white; text-decoration: none; }     /* visited link */
+a:hover     {color: white; text-decoration: none; }     /* mouse over link */
+a:active    {color: white; text-decoration: none; }     /* selected link */
